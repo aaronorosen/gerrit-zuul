@@ -5,9 +5,6 @@ import zuul.rpcclient
 from gerritlib import gerrit
 
 
-client = gerrit.Gerrit("review.openstack.org", 'arosen')
-
-
 def main():
 
     parser = argparse.ArgumentParser("Zuul/gerrit patch enqueuer")
